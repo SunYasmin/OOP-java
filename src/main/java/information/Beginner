@@ -1,0 +1,48 @@
+1-When should you use access specifiers in OOP?
+    Access specifiers are reserved keywords in OOP used to control the accessibility of classes, methods, and other class members.
+    A different name for it is access modifiers. Public, private, and protected are all included.
+    In addition, there are additional language-specific access specifiers. Java, for instance, has a different access specifier default.
+    These access specifiers are essential for achieving Encapsulation, one of the main goals of OOP.
+
+OOP'ta erişim belirticilerini ne zaman kullanmalısınız?
+Erişim belirticileri, OOP'ta sınıfların, yöntemlerin ve diğer sınıf üyelerinin erişilebilirliğini denetlemek için kullanılan
+ayrılmış anahtar sözcüklerdir. Bunun farklı bir adı erişim değiştiricileridir. Genel, özel ve korumalı olanların tümü dahildir.
+Ayrıca dile özgü ek erişim belirteçleri de vardır. Örneğin Java'nın farklı bir erişim belirtici varsayılanı vardır. Bu erişim belirteçleri,
+OOP'nin ana hedeflerinden biri olan Kapsülleme'ye ulaşmak için gereklidir.
+
+
+2-List down some characteristics of an abstract class.
+  An abstract class is a restricted class in Java code that cannot be used to create objects. It is always utilized as a base class and cannot be instantiated. The following are the traits of an abstract class:
+
+  Abstract classes can not be instantiated. They must be inherited.
+  Abstract classes can have non-abstract and abstract methods.
+  Abstract classes must have at least one declared abstract method.
+  Abstract classes are always public.
+  An abstract class's function is to offer a standard base class definition that many derived classes can use.
+
+  Soyut bir sınıfın bazı özelliklerini listeleyin.
+  Soyut sınıf, Java kodunda nesneler oluşturmak için kullanılamayan kısıtlı bir sınıftır. Her zaman temel sınıf olarak kullanılır ve somutlaştırılamaz. Soyut bir sınıfın özellikleri şunlardır:
+
+  Soyut sınıflar başlatılamaz. Miras kalmış olmaları gerekir.
+  Soyut sınıfların soyut olmayan ve soyut yöntemleri olabilir.
+  Soyut sınıfların en az bir tane beyan edilmiş soyut yöntemi olmalıdır.
+  Soyut sınıflar her zaman herkese açıktır.
+  Soyut bir sınıfın işlevi, birçok türetilmiş sınıfın kullanabileceği standart bir temel sınıf tanımı sunmaktır.
+
+3-How many types of inheritance are present in OOP?
+  The following are the various types of inheritance in OOP:
+
+  Single Inheritance: A single child inherits characteristics from a single parent.
+  Multiple Inheritance: One class inherits features from more than one base class, which is not supported in Java, but the class can implement multiple interfaces.
+  Multilevel Inheritance: In multilevel inheritance, a class can inherit from a derived class. This makes it the base class for a new class. For example, a child inherits behaviour from his father, and the father inherits characteristics from his father.
+  Hierarchical Inheritance: Multiple subclasses inherit from a single class.
+  Hybrid Inheritance: A hybrid inheritance is one that combines single and multiple inheritances.
+
+  OOP'ta kaç tür kalıtım vardır?
+  OOP'daki çeşitli kalıtım türleri şunlardır:
+
+  Tek Kalıtım: Tek bir çocuk, tek bir ebeveynin özelliklerini miras alır.
+  Çoklu Kalıtım: Bir sınıf, Java'da desteklenmeyen özellikleri birden fazla temel sınıftan devralır, ancak sınıf birden fazla arabirim uygulayabilir.
+  Çok Düzeyli Kalıtım: Çok düzeyli kalıtımda, bir sınıf türetilmiş bir sınıftan miras alabilir. Bu onu yeni bir sınıf için temel sınıf yapar. Örneğin, bir çocuk davranışlarını babasından, baba da babasından özelliklerini miras alır.
+  Hiyerarşik Kalıtım: Birden fazla alt sınıf, tek bir sınıftan miras alır.
+  Hibrit Kalıtım: Hibrit kalıtım, tek ve çoklu kalıtımı birleştiren bir mirastır.
