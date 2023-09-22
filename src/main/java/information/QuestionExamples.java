@@ -44,3 +44,38 @@ public class QuestionExamples {
         }
     }
 
+
+/**If a Demo class has a static block and a main() method with a print statement in both, which one will first execute, and why?
+ *
+ * Bir Demo sınıfında statik bir blok ve her ikisinde de print deyimi bulunan bir main() yöntemi varsa, ilk önce hangisi yürütülecek ve neden?
+ */
+class Demo
+     {
+     static
+     {
+     System.out.println("Static block");
+     }
+     public static void main(String args[])
+     {
+     System.out.println("Static method");
+     }
+     }
+
+     /**The Jave Virtual Machine first executes the static block on a priority basis. It indicates that JVM looks for the static block before the main() method in the program. The main() method will then be called.
+
+     Running the code above yields the following result:
+
+     Static block
+     Static method
+
+     Note: Commonly asked Java OOPs interview question.
+
+      Jave Sanal Makinesi öncelikle statik bloğu öncelik esasına göre yürütür. JVM'nin programdaki main() yönteminden önceki statik bloğu aradığını gösterir. Daha sonra main() yöntemi çağrılacaktır.
+
+      Yukarıdaki kodu çalıştırmak aşağıdaki sonucu verir:
+
+      Statik blok
+      Statik yöntem
+
+      Not: Yaygın olarak sorulan Java OOP mülakat sorusu.
+      */
