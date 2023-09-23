@@ -68,3 +68,24 @@ OOP'nin ana hedeflerinden biri olan Kapsülleme'ye ulaşmak için gereklidir.
    bu, yöntemin gizlenmesine neden olur; bu,
    alt sınıf tipinin bir referans değişkenini kullanırsanız yeni yöntemin çağrılacağı anlamına gelir.
    Yine de süper sınıf türünde bir referans değişkeni kullanırsanız eski yöntem çağrılacaktır.
+
+5-What are the types of variables in OOP?
+  Mainly, there are three variables:
+
+  Instance Variable: The Instance Variable is an object-level variable.
+  Although it must be outside a method, block, and constructor,
+  it must be declared inside a class. It is also created when an object is created using the new keyword.
+  Moreover, it can be accessed directly by calling the variable name within the class.
+
+  Static Variable: Static Variables are class-level variables.
+  They must be outside the method, block, and constructor but are declared with the static keyword inside a class.
+  It keeps things in fixed memory. It shares the same visibility as the instance variable.
+  A static variable has the same default value as an instance variable. You access it by calling the class_name.variable_name.
+
+  Local Variable: The Local Variable is a method-level variable.
+  This can be declared in method, constructor, or block.
+  Keep in mind that local variables cannot be used with access modifiers.
+  Only the method, block, and constructor where it is declared have access to it.
+  It is applied internally at the stack level. Therefore, it must be declared and initialized before use.
+  On the other hand, the reference variable is a different kind of variable used in object-oriented programming.
+  A reference variable is a variable that identifies a class object. It designates the spot where the object is kept in memory.
