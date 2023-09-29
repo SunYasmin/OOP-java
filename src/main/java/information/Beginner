@@ -89,3 +89,12 @@ OOP'nin ana hedeflerinden biri olan Kapsülleme'ye ulaşmak için gereklidir.
   It is applied internally at the stack level. Therefore, it must be declared and initialized before use.
   On the other hand, the reference variable is a different kind of variable used in object-oriented programming.
   A reference variable is a variable that identifies a class object. It designates the spot where the object is kept in memory.
+
+6-What is the difference between Encapsulation and Abstraction?
+
+  The Object Oriented principle for Encapsulation is "encapsulate what varies,"
+  and the principle for abstraction is "program to interfaces, not implementations."
+  Abstraction provides a class's overall structure while leaving the specifics to the implementers.
+  An object's permissions and limitations are created and defined through Encapsulation and the variables and methods that make up the object.
+  Java uses interfaces and abstract classes to implement abstraction,
+  whereas Encapsulation uses four different access level modifiers: public, protected, no modifier, and private.
