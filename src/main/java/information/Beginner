@@ -98,3 +98,12 @@ OOP'nin ana hedeflerinden biri olan Kapsülleme'ye ulaşmak için gereklidir.
   An object's permissions and limitations are created and defined through Encapsulation and the variables and methods that make up the object.
   Java uses interfaces and abstract classes to implement abstraction,
   whereas Encapsulation uses four different access level modifiers: public, protected, no modifier, and private.
+
+7-What is the difference between Encapsulation and Abstraction?
+  The Object Oriented principle for Encapsulation is "encapsulate what varies," and the principle for abstraction is "program to interfaces,
+  not implementations."
+  Abstraction provides a class's overall structure while leaving the specifics to the implementers.
+  An object's permissions and limitations are created and defined through Encapsulation and the variables and methods that make up the object.
+  Java uses interfaces and abstract classes to implement abstraction,
+  whereas Encapsulation uses four different access level modifiers: public, protected, no modifier, and private.
+

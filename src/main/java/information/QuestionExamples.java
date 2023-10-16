@@ -70,7 +70,7 @@ class Demo
 
      Note: Commonly asked Java OOPs interview question.
 
-      Jave Sanal Makinesi öncelikle statik bloğu öncelik esasına göre yürütür. JVM'nin programdaki main() yönteminden önceki statik bloğu aradığını gösterir. Daha sonra main() yöntemi çağrılacaktır.
+      Java Sanal Makinesi öncelikle statik bloğu öncelik esasına göre yürütür. JVM'nin programdaki main() yönteminden önceki statik bloğu aradığını gösterir. Daha sonra main() yöntemi çağrılacaktır.
 
       Yukarıdaki kodu çalıştırmak aşağıdaki sonucu verir:
 
