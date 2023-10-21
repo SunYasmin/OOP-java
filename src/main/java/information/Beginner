@@ -107,3 +107,23 @@ OOP'nin ana hedeflerinden biri olan Kapsülleme'ye ulaşmak için gereklidir.
   Java uses interfaces and abstract classes to implement abstraction,
   whereas Encapsulation uses four different access level modifiers: public, protected, no modifier, and private.
 
+  Kapsülleme ve Soyutlama arasındaki fark nedir?
+     Kapsülleme için Nesneye Yönelik prensip "değişenleri kapsüllemek"tir ve soyutlama prensibi "arabirimlerden programa,
+     uygulamalar değil."
+     Soyutlama, ayrıntıları uygulayıcılara bırakırken bir sınıfın genel yapısını sağlar.
+     Bir nesnenin izinleri ve sınırlamaları Kapsülleme ve nesneyi oluşturan değişkenler ve yöntemler aracılığıyla oluşturulur ve tanımlanır.
+     Java, soyutlamayı uygulamak için arayüzleri ve soyut sınıfları kullanır.
+     Kapsülleme dört farklı erişim düzeyi değiştiricisi kullanır: genel, korumalı, değiştirici yok ve özel.
+
+8-Is it possible to override the final method in Java?
+  The final keyword is used with a method in Java to prevent method overriding,
+  so you cannot override a final method. When you don't want a subclass to change the logic of your method by overriding it for security reasons,
+   you use the final. For example, the String class in Java is final because of this.
+   The template method is made final in these design patterns to prevent overriding, another application of this idea.
+
+  Note: Commonly asked Java OOPs interview question.
+
+  Java'daki son yöntemi geçersiz kılmak mümkün mü?
+  Final anahtar sözcüğü, Java'da yöntemin geçersiz kılınmasını önlemek için bir yöntemle birlikte kullanılır, dolayısıyla son yöntemi geçersiz kılamazsınız. Bir alt sınıfın, güvenlik nedeniyle yönteminizin mantığını geçersiz kılarak değiştirmesini istemiyorsanız finali kullanırsınız. Örneğin Java'daki String sınıfı bu nedenle finaldir. Bu fikrin bir başka uygulaması olan, geçersiz kılmayı önlemek için bu tasarım desenlerinde şablon yöntemi son haline getirilir.
+
+  Not: Yaygın olarak sorulan Java OOP mülakat sorusu.
