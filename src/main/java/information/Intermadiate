@@ -1,0 +1,24 @@
+**Constructor                                                                                    **Method
+
+It has the same name as the class.                                                               The method name and class name are not the same.
+
+The Construcotr is a special type of method used to initialize an object of its class.           The method is a set of instructions that can be called at any time during the execution of a program.
+
+It creates a class instance.                                                                     It's used to run Java code.
+
+It is called implicitly when we create a class object.                                           When we explicitly call it, it is executed.
+
+The subclass cannot inherit it.                                                                  The subclass can inherit it.
+
+It does not have any return type.                                                                It must have a return type.
+
+It cannot be overridden in Java.                                                                 It can be overridden in Java.
+
+It cannot be declared static.                                                                    It can be declared static.
+
+A constructor is provided by the Java compiler by default.                                       By default, the Java compiler does not provide any methods.
+
+
+
+
+Note: Commonly asked Java OOPs interview question.
