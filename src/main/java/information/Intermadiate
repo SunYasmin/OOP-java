@@ -22,3 +22,16 @@ A constructor is provided by the Java compiler by default.                      
 
 
 Note: Commonly asked Java OOPs interview question.
+
+
+Explain different levels of data abstraction in Java.
+There are three levels of data abstraction:
+
+***Physical Level: This is the level of data abstraction that is the lowest. It demonstrates how information is kept in memory.
+
+***Logical Level: It consists of the data kept in the database as tables.
+It also stores the connections between the data entities in relatively straightforward structures.
+The user's access to information at the view level is currently unknown.
+
+***View Level: This level is the highest level of data abstraction. The user can see the real database.
+It makes it easier for a single user to access the database.
